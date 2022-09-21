@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.Logo{
+    background-color: fuchsia;
+    width: 250px;
+    height: 250px;  
+}
+.Nombre{
+    background-color: fuchsia;
+    text-decoration: underline;
+    width: 250px;
+    height: 250px;
+}
+.box-img{
+    background-color: black;
+}
+.Lista{
+    background-color: fuchsia;
+    font-size: medium;
+    list-style: none;   
+    text-decoration:none;
+    text-decoration-line: none;
+    text-decoration-skip: none;
+    justify-content: space-between;
+    font-size: large;
+    padding: 80px;
+}
