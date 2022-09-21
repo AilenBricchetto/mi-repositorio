@@ -3,22 +3,34 @@
     margin:0;
 }
 
-.Logo{
+.bloque{
     background-color: fuchsia;
-    width: 250px;
-    height: 250px;  
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
-.Nombre{
+.logo{
+    min-width: 250px;
+    min-height: 250px;
+}
+.nombre{
     background-color: fuchsia;
-    text-decoration: underline;
-    width: 250px;
-    height: 250px;
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .box-img{
     background-color: black;
 }
-.Lista{
+.lista{
     background-color: fuchsia;
+   text-align: right;
     font-size: medium;
     list-style: none;   
     text-decoration:none;
