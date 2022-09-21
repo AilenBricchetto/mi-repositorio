@@ -25,8 +25,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.titulo{
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 .box-img{
-    background-color: black;
+    border-image: 10px;
 }
 .lista{
     background-color: fuchsia;
