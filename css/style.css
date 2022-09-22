@@ -162,3 +162,6 @@ div.box-img img{
     justify-content: center;
     align-items: center;
 }
+.cuerpo{
+    background-image: linear-gradient(fuchsia , pink , white);
+}
