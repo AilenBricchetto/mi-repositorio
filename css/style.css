@@ -183,3 +183,12 @@ div.box-img img{
     justify-items: center;
     margin-right: 10%;
 }
+.quienes-somos{
+    background-image: linear-gradient(pink, white);
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
