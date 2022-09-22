@@ -86,3 +86,11 @@ div.box-img img{
     width: 500px;
     height: 200px;
 }
+.articulos{
+    text-justify: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 8vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+    margin-left: 8vw;
+}
