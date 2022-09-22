@@ -23,16 +23,20 @@
     border-top-left-radius: 10%;
 }
 .nombre{
+    width: 250px;
+    height: 250px;
     background-color: fuchsia;
+    font-family: cursive ;
     font-size: xx-large;
     display: flex;
     text-align: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .listas{
     background-color: fuchsia;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    text-align: right;
     font-size: medium;
     list-style: none;
