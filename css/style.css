@@ -77,12 +77,12 @@ div.box-img img{
     margin-left: 20%;
 }
 .hijos{
+    background-image: linear-gradient(fuchsia , pink , white);
     border-style: double;
-    grid-template-rows: 1200px 1800px;
-    margin-top: 5%;
-    margin-right: 15%;
-    margin-bottom: 5%;
-    margin-left: 15%;
+    margin-top: 1.5vw;
+    margin-right: 0.5vw;
+    margin-bottom: 1.5vw;
+    margin-left: 0.5vw;
     width: 500px;
-    height: 100px;
+    height: 200px;
 }
