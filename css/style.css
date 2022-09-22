@@ -8,7 +8,7 @@
     margin-left: auto;
     margin-bottom: 0%;
     margin-right: auto;
-    background-color: fuchsia;
+    background-image: linear-gradient(pink , violet);
     font-size: xx-large;
     display: flex;
     text-align: center;
@@ -25,7 +25,7 @@
 .nombre{
     width: 250px;
     height: 250px;
-    background-color: fuchsia;
+    background-image: linear-gradient(pink , violet);
     font-family: cursive ;
     font-size: xx-large;
     display: flex;
@@ -35,17 +35,16 @@
     align-items: center;
 }
 .listas{
-    background-color: fuchsia;
+    background-image: linear-gradient(pink , violet);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   text-align: right;
-    font-size: medium;
+    font-size: large;
     list-style: none;
     list-style-type: none   ;   
     text-decoration:none;
     text-decoration-line: none;
     text-decoration-skip: none;
     justify-content: space-between;
-    font-size: large;
+    padding: 2vw;
 }
 .titulo{
     margin-top: 20px;
@@ -66,31 +65,100 @@ div.box-img img{
     width: 100%;
     height: auto;
 }
+.productos{
+    background-image: linear-gradient(fuchsia , pink , white);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+}
 .contenedor{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    width: 100%;
+    height: auto;
     margin-top: 10%;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-bottom: 10%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .hijos{
-    background-image: linear-gradient(fuchsia , pink , white);
-    border-style: double;
-    margin-top: 1.5vw;
-    margin-right: 0.5vw;
-    margin-bottom: 1.5vw;
-    margin-left: 0.5vw;
-    width: 500px;
-    height: 200px;
+    background-image: none;
+    margin-top: 1.5px;
+    margin-right: 0.5px;
+    margin-bottom: 1.5px;
+    margin-left: 0.5px;
+    width: 336px;
+    height: 280px;
+    border: double 10px black;
 }
 .articulos{
+    color: black;
     text-justify: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 8vw;
-    margin-right: 5vw;
-    margin-bottom: 5vw;
-    margin-left: 8vw;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    vertical-align: bottom;
+    text-shadow: auto;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.seccion1{
+    background-image: linear-gradient(pink , fuchsia);
+    display: flex;
+    flex-direction: row;
+    border: double 10px black;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.nombre-footer{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    image-orientation: center;
+    margin-top: 0%;
+    margin-bottom: 0%;   
+    padding: 0%;
+}
+.seccion2{
+    background-image: linear-gradient(pink , fuchsia);
+    display: flex;
+    flex-direction: row;
+    border: double 10px black;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.sub-seccion2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
