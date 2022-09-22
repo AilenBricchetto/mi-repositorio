@@ -4,6 +4,10 @@
 }
 
 .bloque{
+    margin-top: 0%;
+    margin-left: auto;
+    margin-bottom: 0%;
+    margin-right: auto;
     background-color: fuchsia;
     font-size: xx-large;
     display: flex;
@@ -13,8 +17,10 @@
     align-items: center;
 }
 .logo{
-    min-width: 250px;
-    min-height: 250px;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    border-top-left-radius: 10%;
 }
 .nombre{
     background-color: fuchsia;
@@ -25,16 +31,30 @@
     justify-content: space-between;
     align-items: center;
 }
+.listas{
+  text-decoration: none;
+  list-style: none;
+  list-style: none;
+  list-style-type: none;
+}
 .titulo{
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: xx-large;
     display: flex;
     text-align: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-decoration-line: underline;
+    }
+div.box-img{
+    background-color: black;
+    border: 5px solid black;
 }
-.box-img{
-    border-image: 10px;
+div.box-img img{
+    width: 100%;
+    height: auto;
 }
 .lista{
     background-color: fuchsia;
